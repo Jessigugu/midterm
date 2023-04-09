@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b3c5d7;
+    color: white;
+    font-size: 20px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    background-color: #75b9be;
+    text-align: center;
+    color: #759eb8;
+    margin: 20px 0px 20px 20px;
+    width: 32%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    font-size: 55px;
+    float: left;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #759eb8;
+    color: white;
+    text-align: center;
+}
+
+.part2,
+.part3 {
+    background-color: #759eb8;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 1px 0px 30px 0px;
+    clear: left;
+}
+
+.part1 {
+    background-color: #759eb8;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 1px 0px 30px 0px;
+    clear: left;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+    border-style: double;
+    border-color: white;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.bio {
+    background-image: url(image/prunus.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    margin: 10px 20px 0px 20px;
+    padding: 125px;
+}
+
+.head {
+
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    z-index: 2;
+}
+
+.head2 {
+    margin: 20px 20px 20px 0px;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    width: 65%;
+    background-color: #b1cde9;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    float: right;
+
+}
+
+.study1 {
+    position: relative;
+    left: 5%;
+}
+
+.study2 {
+    position: relative;
+    left: 18%;
+}
+
+.study3 {
+    position: relative;
+    left: 32%;
+}
+
+.word1 {
+    position: relative;
+    left: 5%;
+    top: 20px;
+    z-index: 0;
+
+}
+
+.word2 {
+    position: relative;
+    left: 39%;
+    top: 0px;
+    z-index: 0;
+}
+
+.word3 {
+    position: relative;
+    left: 74%;
+    top: -20px;
+    z-index: 0;
+
+}
+
+.word4 {
+    position: relative;
+    left: 43%;
+    top: 0px;
+    z-index: 0;
+}
+
+.radar {
+    position: relative;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+
+.nav1 {
+    text-align: center;
+    letter-spacing: 25px;
+
+}
+
+a:hover {
+    background-color: white;
+}
+
+.word5 {
+    position: relative;
+    left: 0px;
+    top: 40px;
+    z-index: 0;
+}
+
+.slogan {
+    color: #759eb8;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    clear: left;
+    text-align: center;
+    z-index: 0;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+
+ol {
+    position: relative;
+    left: 40%;
+}
